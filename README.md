@@ -24,3 +24,10 @@ Detta är projektarkivet för romanen som utvecklas steg för steg tillsammans m
 - `kontinuitetsanteckningar.md` fångar fakta som inte får motsägas.
 - `arbetslogg.md` visar vad som har gjorts.
 - `kapitel/` innehåller kapitelutkast och godkända kapitel.
+
+
+## Omslag
+
+- Omslagsbild: `omslag/nar-planen-spricker-omslag.png`
+- Status: Skapad och inlagd i projektarkivet 2026-05-26.
+- Bilden visar ett stilrent, nordiskt myndighets-/kontorsomslag med titel, undertitel och författarnamn.

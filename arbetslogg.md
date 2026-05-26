@@ -28,6 +28,7 @@
 | 2026-05-11 | Kapitel 21 skrivet | Kapitel 21 – Inte färdiga, men förändrade tillagt. |
 | 2026-05-11 | Kapitel 22 skrivet | Kapitel 22 – Efter sprinten tillagt; första helutkastet är komplett och projektfilerna synkade. |
 | 2026-05-11 | Kapitel 23 skrivet | Kapitel 23 – Tre månader senare tillagt som epilog/bonuskapitel; projektfilerna synkade för 23 kapitel. |
+| 2026-05-26 | Omslagsbild inlagd i projektzip | Fil: `omslag/nar-planen-spricker-omslag.png`. |
 
 ## Nästa rekommenderade steg
 

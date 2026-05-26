@@ -27,3 +27,5 @@
 - Välj eventuell undertitel.
 - Välj eventuell baksidestext till EPUB-beskrivning.
 - Välj eventuell omslagsbild.
+
+- Omslagsbild: `omslag/nar-planen-spricker-omslag.png`

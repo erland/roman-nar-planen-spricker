@@ -162,3 +162,11 @@ Kapitel 23 kan fungera som epilog efter det ursprungliga lågmälda slutet i Kap
 - Omslag: Ej beställt; EPUB kan skapas utan omslagsbild med enkel titelsida
 - Undertitel: Ej angiven
 - Förlags-/ISBN-information: Ej angiven
+
+
+## Omslagsbild
+
+- Status: Skapad och inlagd i projektarkivet.
+- Fil: `omslag/nar-planen-spricker-omslag.png`
+- Motiv: Stilren svensk myndighets- och kontorsmiljö med glasväggar, whiteboard, skärmar, mötesrum, kvällsljus och subtil romantisk underton.
+- Text på omslag: Titel, undertitel och författare.

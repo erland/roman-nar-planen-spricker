@@ -11,12 +11,8 @@ Första helutkast komplett med epilog / EPUB-underlag kompletterat / revision n�
 
 ## Nästa rekommenderade steg
 
-Gör en helhetsrevision av första utkastet:
-1. Läs igenom kapitel 1–23 för struktur och rytm.
-2. Kontrollera att Karin och Eriks bågar är tydliga från start till slut.
-3. Kontrollera att ensemblefigurerna får tillräcklig payoff utan att romanen blir spretig.
-4. Justera tempo, övergångar, återkommande formuleringar och eventuella metodtunga partier.
-5. Därefter kan en språk- och dialogrevision göras kapitel för kapitel.
+
+Helhetsrevision eller ny EPUB-export med omslagsbild inkluderad.
 
 ## Viktiga öppna beslut
 
@@ -71,3 +67,8 @@ Underlaget för att skapa EPUB är komplett med följande standardval:
 - Kapitel 23 behandlas som epilog/bonuskapitel och inkluderas vid export om inget annat beslutas.
 
 Nästa exportsteg är att skapa en faktisk EPUB-fil från kapitelfilerna.
+
+
+## Omslagsbild
+
+- Status: Skapad och inlagd som `omslag/nar-planen-spricker-omslag.png`.

@@ -2,7 +2,7 @@
 
 ## Projekt
 - Titel: När planen spricker
-- Senast uppdaterad: 2026-05-11
+- Senast uppdaterad: 2026-05-26
 - Nuvarande fas: Första helutkast komplett med epilog / EPUB-underlag kompletterat / revision nästa
 - Senast godkända kapitel: Inget formellt godkänt; kapitel 1–23 finns som utkast
 - Nästa kapitel: Helhetsrevision
@@ -67,3 +67,14 @@
 - Språk: svenska
 - Kapitel i exportunderlag: 23
 - Resultat: Underlag komplett
+
+
+## Omslag
+
+| Fil | Syfte | Status |
+|---|---|---|
+| `omslag/nar-planen-spricker-omslag.png` | Omslagsbild/framsida | Skapad och inlagd |
+
+## Metadata
+
+- Status för omslagsbild: Skapad och inlagd (`omslag/nar-planen-spricker-omslag.png`).
