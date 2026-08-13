@@ -2,8 +2,8 @@
 
 ## Projekt
 - Titel: När planen spricker
-- Senast uppdaterad: 2026-05-26
-- Nuvarande fas: Första helutkast komplett med epilog / EPUB-underlag kompletterat / revision nästa
+- Senast uppdaterad: 2026-08-13
+- Nuvarande fas: Första helutkast komplett med epilog / omslag inlagt / GitHub Actions-publicering införd / revision nästa
 - Senast godkända kapitel: Inget formellt godkänt; kapitel 1–23 finns som utkast
 - Nästa kapitel: Helhetsrevision
 
@@ -78,3 +78,24 @@
 ## Metadata
 
 - Status för omslagsbild: Skapad och inlagd (`omslag/nar-planen-spricker-omslag.png`).
+
+
+## Publiceringsfiler
+| Fil | Syfte | Status |
+|---|---|---|
+| `.github/workflows/01-validate.yml` | Snabb validering på PR/push till main | OK |
+| `.github/workflows/02-build-preview.yml` | Manuellt previewbygge av EPUB och PDF | OK |
+| `.github/workflows/03-release.yml` | Releasebygge på v*-taggar | OK |
+| `scripts/validate_project.py` | Projektvalidering för CI | OK |
+| `scripts/build_book.py` | EPUB/PDF-bygge via Pandoc | OK |
+| `publishing/metadata.yaml` | Metadata för export | OK |
+| `publishing/epub.css` | EPUB-stilmall | OK |
+| `publishing/pdf-template.tex` | PDF-mall | OK |
+| `publishing/pdf-filter.lua` | PDF-kapitelrubrikfilter | OK |
+| `publishing/fix-epub-after-pandoc.py` | EPUB-efterbearbetning | OK |
+
+## GitHub Actions-synkkontroll
+- `.github` på samma nivå som `README.md`: Ja
+- Preview-artifact: `nar-planen-spricker-preview`
+- Release-assets: EPUB och PDF separata filer
+- Resultat: Synkad

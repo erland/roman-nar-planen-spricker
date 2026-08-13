@@ -4,6 +4,10 @@
 
 **Erland Lindmark**
 
+## Undertitel
+
+**En roman om förändring, tillit och nya roller**
+
 ## Arbetstitel
 
 **När planen spricker**
@@ -170,3 +174,10 @@ Kapitel 23 kan fungera som epilog efter det ursprungliga lågmälda slutet i Kap
 - Fil: `omslag/nar-planen-spricker-omslag.png`
 - Motiv: Stilren svensk myndighets- och kontorsmiljö med glasväggar, whiteboard, skärmar, mötesrum, kvällsljus och subtil romantisk underton.
 - Text på omslag: Titel, undertitel och författare.
+
+
+## Publicering och omslag
+
+- Omslagsbild: `omslag/nar-planen-spricker-omslag.png`
+- Publiceringsmetadata: `publishing/metadata.yaml`
+- GitHub Actions: infört 2026-08-13 med validering, previewbygge och releasebygge.
