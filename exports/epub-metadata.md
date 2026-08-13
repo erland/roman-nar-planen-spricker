@@ -1,31 +1,26 @@
-# EPUB-metadata
+# EPUB/PDF-metadata
 
 ## Grundmetadata
 
 - Titel: När planen spricker
+- Undertitel: En roman om förändring, tillit och nya roller
 - Författare: Erland Lindmark
-- Språk: svenska
+- Språk: sv-SE
 - Genre: realistisk arbetsplatsroman med romantisk subplot
 - Målgrupp: vuxen
 - Kapitelkälla: `kapitel/kapitel-01.md` till `kapitel/kapitel-23.md`
 - Kapitelordning: numerisk ordning
-- Exportstatus: Underlag komplett för EPUB-export
+- Omslag: `omslag/nar-planen-spricker-omslag.png`
+- Exportstatus: Underlag komplett för Pandoc-baserad EPUB/PDF-export
 
-## Standardval om EPUB skapas
+## GitHub Actions
 
-- Omslag: enkel titelsida utan bild, eftersom ingen omslagsbild är beställd
-- Undertitel: ingen
-- ISBN: inget ISBN angivet
-- Förlag: inget förlag angivet
-- Upphovsmetadata: författare anges som `Erland Lindmark`
-- Innehållsförteckning: ett avsnitt per kapitel
-- Epilog: Kapitel 23 – Tre månader senare inkluderas om inget annat beslutas
+- Validering: `python3 scripts/validate_project.py .`
+- Bygge: `python3 scripts/build_book.py --output-dir <utdatakatalog>`
+- Preview-artifact: `nar-planen-spricker-preview`
+- Release: triggas av `v*`-taggar
 
-## Öppna val inför faktisk EPUB-export
+## Öppna val inför revision
 
-- Behåll Kapitel 23 som epilog eller låt romanen sluta vid Kapitel 22.
-- Välj eventuell undertitel.
-- Välj eventuell baksidestext till EPUB-beskrivning.
-- Välj eventuell omslagsbild.
-
-- Omslagsbild: `omslag/nar-planen-spricker-omslag.png`
+- Avgör om Kapitel 23 ska behållas som epilog eller om romanen ska sluta vid Kapitel 22.
+- Eventuellt ISBN/förlag saknas och är inte nödvändigt för teknisk export.

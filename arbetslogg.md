@@ -29,8 +29,10 @@
 | 2026-05-11 | Kapitel 22 skrivet | Kapitel 22 – Efter sprinten tillagt; första helutkastet är komplett och projektfilerna synkade. |
 | 2026-05-11 | Kapitel 23 skrivet | Kapitel 23 – Tre månader senare tillagt som epilog/bonuskapitel; projektfilerna synkade för 23 kapitel. |
 | 2026-05-26 | Omslagsbild inlagd i projektzip | Fil: `omslag/nar-planen-spricker-omslag.png`. |
+| 2026-05-11 | EPUB-underlag kompletterat | Författare satt till Erland Lindmark; metadatafil skapad och status/index/exportlogg uppdaterade. |
+| 2026-08-13 | GitHub Actions-publicering införd | `.github`, `scripts` och `publishing` tillagda enligt bifogat publiceringskit; anpassat till När planen spricker. |
 
 ## Nästa rekommenderade steg
 
 - Gör en helhetsrevision av utkastet inklusive epilog innan språkputs.
-| 2026-05-11 | EPUB-underlag kompletterat | Författare satt till Erland Lindmark; metadatafil skapad och status/index/exportlogg uppdaterade. |
+

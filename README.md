@@ -31,3 +31,24 @@ Detta är projektarkivet för romanen som utvecklas steg för steg tillsammans m
 - Omslagsbild: `omslag/nar-planen-spricker-omslag.png`
 - Status: Skapad och inlagd i projektarkivet 2026-05-26.
 - Bilden visar ett stilrent, nordiskt myndighets-/kontorsomslag med titel, undertitel och författarnamn.
+
+
+## GitHub Actions och publicering
+
+Projektet innehåller nu ett GitHub Actions-upplägg på repository-rotnivå:
+
+- `.github/workflows/01-validate.yml` validerar projektstruktur, metadata, omslag och kapitelserie.
+- `.github/workflows/02-build-preview.yml` bygger EPUB och PDF manuellt som ett gemensamt preview-artifact.
+- `.github/workflows/03-release.yml` bygger EPUB och PDF vid `v*`-taggar och laddar upp dem som separata release assets.
+
+Publiceringsfilerna ligger i:
+
+- `scripts/validate_project.py`
+- `scripts/build_book.py`
+- `publishing/metadata.yaml`
+- `publishing/epub.css`
+- `publishing/fix-epub-after-pandoc.py`
+- `publishing/pdf-template.tex`
+- `publishing/pdf-filter.lua`
+
+`.github` ligger på samma nivå som denna `README.md`.

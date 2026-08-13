@@ -2,7 +2,8 @@
 
 ## Nuvarande fas
 
-Första helutkast komplett med epilog / EPUB-underlag kompletterat / revision nästa.
+Första helutkast komplett med epilog / omslag inlagt / GitHub Actions-publicering införd / revision nästa.
+
 
 ## Senast godkända kapitel eller del
 
@@ -11,8 +12,8 @@ Första helutkast komplett med epilog / EPUB-underlag kompletterat / revision n�
 
 ## Nästa rekommenderade steg
 
+Kör helhetsrevision, eller lägg projektet i ett GitHub-repository och kör Validate/Build Preview för att skapa EPUB/PDF via Actions.
 
-Helhetsrevision eller ny EPUB-export med omslagsbild inkluderad.
 
 ## Viktiga öppna beslut
 
@@ -54,21 +55,31 @@ Helhetsrevision eller ny EPUB-export med omslagsbild inkluderad.
 - Mer känslomässigt djup är önskat än bara korta dialogfraser.
 
 
-## EPUB-status
+## EPUB/PDF-status
 
-Underlaget för att skapa EPUB är komplett med följande standardval:
+Underlaget för att skapa EPUB och PDF via Pandoc/GitHub Actions är komplett med följande standardval:
 
 - Titel: När planen spricker
+- Undertitel: En roman om förändring, tillit och nya roller
 - Författare: Erland Lindmark
-- Språk: svenska
+- Språk: sv-SE
 - Kapitel: 1–23 i numerisk ordning
-- Omslag: ej beställt; kan exporteras med enkel titelsida
-- Undertitel: ej angiven
+- Omslag: `omslag/nar-planen-spricker-omslag.png`
 - Kapitel 23 behandlas som epilog/bonuskapitel och inkluderas vid export om inget annat beslutas.
 
-Nästa exportsteg är att skapa en faktisk EPUB-fil från kapitelfilerna.
-
+Nästa exportsteg är att köra `python3 scripts/build_book.py --output-dir <utdatakatalog>` lokalt eller via GitHub Actions Build Preview.
 
 ## Omslagsbild
 
 - Status: Skapad och inlagd som `omslag/nar-planen-spricker-omslag.png`.
+
+
+## GitHub Actions-status
+
+- Infört: 2026-08-13
+- `.github/` ligger på samma nivå som `README.md`.
+- Validate-workflow finns för pull request och push till `main`.
+- Build Preview-workflow finns för manuellt EPUB/PDF-bygge.
+- Release-workflow finns för `v*`-taggar.
+- Bygget använder `scripts/build_book.py`, `scripts/validate_project.py` och filerna i `publishing/`.
+- Preview-artifact: `nar-planen-spricker-preview`.
