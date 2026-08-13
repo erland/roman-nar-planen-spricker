@@ -3,7 +3,7 @@
 ## Projekt
 - Titel: När planen spricker
 - Senast uppdaterad: 2026-08-13
-- Nuvarande fas: Första helutkast komplett med epilog / omslag inlagt / GitHub Actions-publicering införd / revision nästa
+- Nuvarande fas: Första helutkast komplett med epilog / omslag inlagt / GitHub Actions-publicering införd / PDF-previewmall åtgärdad / revision nästa
 - Senast godkända kapitel: Inget formellt godkänt; kapitel 1–23 finns som utkast
 - Nästa kapitel: Helhetsrevision
 
@@ -45,6 +45,8 @@
 | arbetslogg.md | Projektändringar | OK |
 | tidslinje.md | Händelser i romanen | OK |
 | kontinuitetsanteckningar.md | Fakta och öppna trådar | OK |
+
+| publishing/pdf-template.tex | PDF-mall för Pandoc/XeLaTeX | Åtgärdad 2026-08-13 |
 
 ## Synkkontroll
 - Kapitel i `kapitel/`: 23

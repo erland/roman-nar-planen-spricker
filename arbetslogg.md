@@ -32,6 +32,8 @@
 | 2026-05-11 | EPUB-underlag kompletterat | Författare satt till Erland Lindmark; metadatafil skapad och status/index/exportlogg uppdaterade. |
 | 2026-08-13 | GitHub Actions-publicering införd | `.github`, `scripts` och `publishing` tillagda enligt bifogat publiceringskit; anpassat till När planen spricker. |
 
+| 2026-08-13 | PDF-mall åtgärdad | `publishing/pdf-template.tex` justerad så Preview Action inte skapar tom sida före omslag eller före innehållsförteckning. |
+
 ## Nästa rekommenderade steg
 
 - Gör en helhetsrevision av utkastet inklusive epilog innan språkputs.

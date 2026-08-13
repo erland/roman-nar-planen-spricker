@@ -52,3 +52,8 @@ Publiceringsfilerna ligger i:
 - `publishing/pdf-filter.lua`
 
 `.github` ligger på samma nivå som denna `README.md`.
+
+
+## PDF-previewmall
+
+PDF-mallen i `publishing/pdf-template.tex` är åtgärdad 2026-08-13 så GitHub Actions Preview inte ska skapa en tom sida före omslaget eller före innehållsförteckningen.
