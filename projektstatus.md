@@ -2,7 +2,7 @@
 
 ## Nuvarande fas
 
-Första helutkast komplett med epilog / omslag inlagt / GitHub Actions-publicering införd / revision nästa.
+Första helutkast komplett med epilog / omslag inlagt / GitHub Actions-publicering införd / PDF-previewmall åtgärdad / revision nästa.
 
 
 ## Senast godkända kapitel eller del
@@ -83,3 +83,9 @@ Nästa exportsteg är att köra `python3 scripts/build_book.py --output-dir <utd
 - Release-workflow finns för `v*`-taggar.
 - Bygget använder `scripts/build_book.py`, `scripts/validate_project.py` och filerna i `publishing/`.
 - Preview-artifact: `nar-planen-spricker-preview`.
+
+
+## GitHub Actions / PDF-preview
+
+- PDF-previewmallen är åtgärdad 2026-08-13 för att undvika tom sida före omslaget och tom sida före innehållsförteckningen.
+- Ändringen finns i `publishing/pdf-template.tex` och påverkar Preview Action samt Release Action.

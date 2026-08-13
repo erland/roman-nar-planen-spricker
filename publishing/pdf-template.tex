@@ -1,4 +1,4 @@
-\documentclass[11pt,openany]{book}
+\documentclass[11pt,openany,oneside]{book}
 
 \usepackage{fontspec}
 \defaultfontfeatures{Ligatures=TeX}
@@ -36,6 +36,7 @@ $endif$
 \usepackage{tocloft}
 \usepackage{ragged2e}
 \usepackage{xcolor}
+\usepackage{eso-pic}
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
@@ -83,9 +84,12 @@ $endif$
 \begin{document}
 
 \thispagestyle{empty}
-\newgeometry{margin=0pt}
-\noindent\includegraphics[width=\paperwidth,height=\paperheight]{$cover-image-pdf$}
-\restoregeometry
+\AddToShipoutPicture*{%
+  \AtPageLowerLeft{%
+    \includegraphics[width=\paperwidth,height=\paperheight]{$cover-image-pdf$}%
+  }%
+}
+\null
 \clearpage
 
 \thispagestyle{empty}

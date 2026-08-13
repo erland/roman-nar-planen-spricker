@@ -28,3 +28,11 @@ Markdown-kapitlen i `kapitel/` är kanonisk källa. GitHub Actions bygger export
 - Projektets källkapitel ändras inte av byggscriptet.
 - EPUB får omslag, titelsida och navigerbar innehållsförteckning.
 - PDF får helsidesomslag, separat titelsida och synlig innehållsförteckning.
+
+## PDF-mall: tomma sidor före omslag/TOC åtgärdade
+
+- Datum: 2026-08-13
+- Problem: Preview Actionens PDF fick en extra tom sida före omslagsbilden och ytterligare en tom sida före innehållsförteckningen.
+- Orsak: PDF-mallen använde `\newgeometry` före omslaget, vilket kan tvinga fram en tom sida, och bokklassen kunde skapa dubbelsides-/frontmatter-relaterade blanksidor.
+- Åtgärd: `publishing/pdf-template.tex` använder nu `oneside` och lägger omslaget med `eso-pic`/`\AddToShipoutPicture*` utan `\newgeometry`.
+- Verifiering: Lokalt Pandoc/XeLaTeX-bygge renderade omslaget som sida 1 och innehållsförteckningen direkt därefter utan tom sida före.
